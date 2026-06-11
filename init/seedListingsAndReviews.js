@@ -36,7 +36,6 @@ async function seedListingsAndReviews(users) {
   for (let listingData of listingsData) {
     const listingReviews = [];
 
-    /* ---------- IMAGE UPLOAD ---------- */
     const uploadResponse = await cloudinary.uploader.upload(
       listingData.imageUrl,
       { folder: "TripNest_DEV" }
@@ -60,20 +59,15 @@ async function seedListingsAndReviews(users) {
       },
     });
 
-    /* ---------- CREATE REVIEWS ---------- */
 
-    // 1️⃣ Random review count (8–12)
     const reviewCount = getRandomInt(8, 12);
 
-    // 2️⃣ Exclude owner from reviewers
     const eligibleUsers = users.filter(
       user => user._id.toString() !== owner._id.toString()
     );
 
-    // 3️⃣ Shuffle users
     const shuffledUsers = shuffleArray(eligibleUsers);
 
-    // 4️⃣ Pick reviewers (safe clamp)
     const selectedReviewers = shuffledUsers.slice(
       0,
       Math.min(reviewCount, shuffledUsers.length)

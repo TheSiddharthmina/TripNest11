@@ -80,7 +80,6 @@ button {
     to { transform: translateY(-4px); }
 }
 
-/* user menu */
 .sign-up-user {
     color: #2563eb;
     font-size: 1.6rem;
@@ -112,13 +111,11 @@ button {
     cursor: pointer;
 }
 
-/* User Menu Drop Down Menu */
 .dropdown-menu { 
     width: 300px;
     position: absolute;
 }
 
-/* Search bar */
 .search-btn {
     background-color: #2563eb;
     color: #fff;
@@ -143,11 +140,7 @@ button {
     text-align: center;
 }
 
-/* 
-    =============================================
-        FOOTER SECTION - START
-    =============================================
-*/
+
 
 .f-info-links a {
     text-decoration: none;
@@ -176,11 +169,6 @@ button {
     margin: 0 .5rem;
 }
 
-/* 
-    =============================================
-        IMAGE CARD SECTION - START
-    =============================================
-*/
 
 .card-body {
     margin: 0;
@@ -199,21 +187,13 @@ button {
     height: 25rem;
 }
 
-/* 
-    =============================================
-        FORM SECTION - START
-    =============================================
-*/
+
 
 .form-label {
     margin-bottom: 0;
 }
 
-/* 
-    =============================================
-        SELECT-NONE
-    =============================================
-*/
+
 
 i,
 .TripNest,
@@ -224,11 +204,6 @@ i,
 }
 
 
-/* 
-    =============================================
-        MOBILE SECTION - START
-    =============================================
-*/
 
 @media (max-width: 768px) {
     

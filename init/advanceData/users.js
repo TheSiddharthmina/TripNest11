@@ -1,5 +1,4 @@
 module.exports = [
-  // 🦸 MARVEL (10)
   { username: "Tony_Stark", email: "tony.stark@starkindustries.com" },
   { username: "Steve_Rogers", email: "steve.rogers@avengers.com" },
   { username: "Bruce_Banner", email: "bruce.banner@avengers.com" },
@@ -11,7 +10,6 @@ module.exports = [
   { username: "Stephen_Strange", email: "stephen.strange@sorcerer.supreme" },
   { username: "TChalla_Wakanda", email: "tchalla@wakanda.gov" },
 
-  // 🐭 CARTOONS (15)
   { username: "Tom_Cat", email: "tom.cat@cartoonnetwork.com" },
   { username: "Jerry_Mouse", email: "jerry.mouse@cartoonnetwork.com" },
   { username: "Scooby_Doo", email: "scooby.doo@mysteryinc.com" },
@@ -28,7 +26,6 @@ module.exports = [
   { username: "Bart_Simpson", email: "bart.simpson@springfield.tv" },
   { username: "Dora_Explorer", email: "dora.explorer@nickjr.com" },
 
-  // 🐉 ANIME (15)
   { username: "Goku_Saiyan", email: "goku.saiyan@dragonball.anime" },
   { username: "Vegeta_Prince", email: "vegeta.prince@dragonball.anime" },
   { username: "Naruto_Uzumaki", email: "naruto.uzumaki@leafvillage.anime" },
@@ -45,7 +42,7 @@ module.exports = [
   { username: "Edward_Elric", email: "edward.elric@alchemy.anime" },
   { username: "Mikasa_Ackerman", email: "mikasa.ackerman@scouts.anime" },
 
-  // 🇮🇳 INDIAN SUPERHEROES / ICONIC (10)
+
   { username: "Shaktimaan", email: "shaktimaan@bharatshakti.in" },
   { username: "Krish_Rohit", email: "krish.rohit@jaadu.power" },
   { username: "Flying_Jatt", email: "flying.jatt@desipower.in" },

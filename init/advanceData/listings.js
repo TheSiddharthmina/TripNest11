@@ -1,6 +1,5 @@
 module.exports = [
 
-/* ===================== TRENDING ===================== */
 {
   title: "Luxury City Apartment",
   description: "Modern apartment in the heart of the city.",
@@ -42,7 +41,6 @@ module.exports = [
   imageUrl: "https://images.unsplash.com/photo-1493809842364-78817add7ffb"
 },
 
-/* ===================== ICONIC CITY ===================== */
 {
   title: "Paris City Studio",
   description: "Charming studio near Eiffel Tower.",
@@ -84,7 +82,6 @@ module.exports = [
   imageUrl: "https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHViYWl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
 },
 
-/* ===================== AMAZING POOLS ===================== */
 {
   title: "Infinity Pool Villa",
   description: "Infinity pool with sunset views.",
@@ -126,7 +123,6 @@ module.exports = [
   imageUrl: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
 },
 
-/* ===================== BEACH ===================== */
 {
   title: "Oceanfront Beach House",
   description: "Steps away from the beach.",
@@ -168,7 +164,6 @@ module.exports = [
   imageUrl: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29"
 },
 
-/* ===================== MOUNTAIN ===================== */
 {
   title: "Himalayan Wooden Cabin",
   description: "Peaceful cabin in the mountains.",
@@ -210,7 +205,6 @@ module.exports = [
   imageUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba"
 },
 
-/* ===================== AMAZING VIEWS ===================== */
 {
   title: "Cliffside Ocean View Home",
   description: "Breathtaking ocean views from every room.",
@@ -251,8 +245,6 @@ module.exports = [
   geometry: { type: "Point", coordinates: [70.9083, 26.9157] },
   imageUrl: "https://images.unsplash.com/photo-1586375300773-8384e3e4916f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
 },
-
-/* ===================== CABINS ===================== */
 {
   title: "Forest Wooden Cabin",
   description: "Secluded cabin surrounded by pine trees.",
@@ -293,8 +285,6 @@ module.exports = [
   geometry: { type: "Point", coordinates: [76.6950, 11.4064] },
   imageUrl: "https://plus.unsplash.com/premium_photo-1686090450467-3212162803e5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
-
-/* ===================== LAKEFRONT ===================== */
 {
   title: "Peaceful Lake House",
   description: "Wake up to calm lake waters.",
@@ -335,8 +325,6 @@ module.exports = [
   geometry: { type: "Point", coordinates: [10.7522, 59.9139] },
   imageUrl: "https://plus.unsplash.com/premium_photo-1670603902632-edef002f0841?q=80&w=1283&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
-
-/* ===================== CASTLES ===================== */
 {
   title: "Medieval Stone Castle",
   description: "Live like royalty in a real castle.",
@@ -377,8 +365,6 @@ module.exports = [
   geometry: { type: "Point", coordinates: [18.0944, 42.6507] },
   imageUrl: "https://images.unsplash.com/photo-1549696504-d2aec6b214f2?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
-
-/* ===================== CAMPING ===================== */
 {
   title: "Forest Camping Tent",
   description: "Reconnect with nature.",
@@ -419,8 +405,6 @@ module.exports = [
   geometry: { type: "Point", coordinates: [-115.5708, 51.1784] },
   imageUrl: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
-
-/* ===================== FARMS ===================== */
 {
   title: "Green Valley Farmhouse",
   description: "Experience peaceful farm life.",
@@ -461,8 +445,6 @@ module.exports = [
   geometry: { type: "Point", coordinates: [77.1734, 31.1048] },
   imageUrl: "https://plus.unsplash.com/premium_photo-1663099373746-703d6504d265?q=80&w=1186&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 },
-
-/* ===================== ARCTIC ===================== */
 {
   title: "Glass Igloo Stay",
   description: "Watch northern lights from bed.",

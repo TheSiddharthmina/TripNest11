@@ -4,7 +4,6 @@ const usersData = require("./advanceData/users");
 async function seedUsers() {
   console.log("🌱 Seeding users...");
 
-  // Clear existing users (DEV ONLY)
   await User.deleteMany({});
   console.log("🧹 Old users removed");
 
@@ -16,7 +15,6 @@ async function seedUsers() {
       email: user.email,
     });
 
-    // passport-local-mongoose handles hashing
     const registeredUser = await User.register(newUser, process.env.SEED_USER_PASSWORD);
     createdUsers.push(registeredUser);
   }

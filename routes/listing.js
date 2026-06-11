@@ -16,7 +16,6 @@ router
         listingController.createListing
     );
 
-// New Route:
 router.get('/new', isLoggedIn, listingController.newListing);
 
 router
@@ -35,7 +34,6 @@ router
         listingController.deleteListing
     );
 
-// Edit Route:
 router.get(
     '/:id/edit',
     isLoggedIn,

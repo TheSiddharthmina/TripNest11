@@ -1,4 +1,4 @@
-/* Cards */
+
 .listing-card {
     border: none;
 }
@@ -7,7 +7,6 @@
     text-decoration: none;
 }
 
-/* card effect */
 .card-img-overlay {
     display: flex;
     justify-content: center;
@@ -29,7 +28,6 @@
     opacity: 1;
 }
 
-/* filter */
 .filter {
     display: flex;
     align-items: center;

@@ -7,7 +7,6 @@ filters.forEach((filter) => {
     });
 });
 
-// filter select logic
 const activeFilter = document.querySelector(".active-filter");
 
 if (activeFilter) {
@@ -18,7 +17,6 @@ if (activeFilter) {
   });
 }
 
-// GST Switch
 let taxSwitch = document.getElementById("switchCheckDefault");
 let taxToggle = document.querySelector(".tax-toggle");
 let taxInfo = document.querySelectorAll(".gst");

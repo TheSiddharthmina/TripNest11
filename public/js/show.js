@@ -1,4 +1,4 @@
-// Rating Stars:
+
 let stars = document.querySelectorAll('.rating-star');
 let inputField = document.getElementById('rating-value');
 
@@ -33,13 +33,10 @@ function updateFilledStars(value) {
   });
 }
 
-// Map Logic
 let coordinates = listing.geometry.coordinates;
 
-// SWAP GeoJSON from [Lng, Lat] to [Lat, Lng] thsi is what Leaflet needs.
 let mapCoordinates = [coordinates[1], coordinates[0]];
 
-// Icon design
 const icon = L.icon({
     iconUrl: '/assets/compass.svg',
 

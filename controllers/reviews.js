@@ -9,7 +9,6 @@ module.exports.addReview = async (req, res) => {
     listing.reviews.push(newReview);
 
     await newReview.save();
-    // console.log(newReview);
     await listing.save();
     
     req.flash('success', 'New review added! Thank you for sharing your experience with us.');

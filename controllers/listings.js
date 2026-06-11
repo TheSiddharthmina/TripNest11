@@ -75,8 +75,6 @@ module.exports.showListing = async (req, res) => {
         req.flash('error', 'Error! The listing you requested does not exist or was deleted.');
         return res.redirect('/listings');
     }
-    
-    // console.log(listing);
     res.render('listings/show', { listing });
 }
 

@@ -10,7 +10,6 @@ const {
 
 const reviewController = require('../controllers/reviews.js');
 
-// Post Route :-
 router.post(
     '/',
     isLoggedIn,
@@ -18,7 +17,6 @@ router.post(
     reviewController.addReview
 );
 
-// Delete Route :-
 router.delete(
     '/:reviewId',
     isLoggedIn,
