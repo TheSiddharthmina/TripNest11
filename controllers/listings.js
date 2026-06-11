@@ -130,3 +130,23 @@ module.exports.deleteListing = async (req, res) => {
     req.flash('success', 'Listing deleted! It has been successfully removed from your collection.');
     res.redirect('/listings');
 }
+module.exports.index = async (req, res) => {
+    console.log("DB URL:", process.env.ATLASDB_URL);
+
+    const { category, location } = req.query;
+
+    let query = {};
+
+    if (category) {
+        query.category = category;
+    }
+
+    const allListings = await Listing.find(query);
+
+    console.log("Listings found:", allListings.length);
+
+    res.render("listings/index", {
+        allListings,
+        selectedCategory: category
+    });
+};
